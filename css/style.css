@@ -1,0 +1,16 @@
+.mypic {
+    border-radius: 50%;
+}
+
+
+@keyframes rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(720deg); }
+}
+
+
+.rotated:hover {
+    transform: rotate(0deg);
+    animation-name: rotation;
+    animation-duration: 0.5s;
+}
